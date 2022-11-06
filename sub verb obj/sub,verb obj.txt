@@ -1,0 +1,16 @@
+netamount = 0
+while True:
+    money=input("enter the amount:")
+    if not money:
+        break
+    transaction=money.split(" ")
+    type=transaction[0]
+    amount=int(transaction[1])
+    if type=="D" or type=="d":
+        netamount+=amount
+    else:
+        type=="W" or type=="w"
+        netamount-=amount
+    # else:
+    #       pass
+print("NET_AMOUNT:",netamount)
