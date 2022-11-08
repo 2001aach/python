@@ -1,0 +1,4 @@
+# a="ausree"
+# print(a[0])
+b=input("enter an word")
+print(b[0])
