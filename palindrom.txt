@@ -1,0 +1,30 @@
+# a=input("enter a word")
+# b=a[::-1]
+#
+# for i in a:
+#       if a==b:
+#           print("word is palindrom")
+#           break
+#       else:
+#           print("word is not palindrom")
+#           break
+
+
+# def palindrom(word):
+#     b=word[::-1]
+#     for i in word:
+#         if word==b:
+#             print("this is a palindrom")
+#             break
+#         else:
+#             print("not palindrom")
+#             break
+# palindrom("dghj")
+
+
+def palindrome(word):
+   if word==word[::1]:
+       print("it is palindrome")
+   else:
+       ("not palindrome")
+palindrome("malayalam")
