@@ -1,0 +1,13 @@
+color={
+    "v":"violet",
+    "i":"indigo",
+    "b":"blue",
+    "g":"green",
+    "o":"orange",
+    "r":"red"
+}
+a=input("enter a ALPHABET")
+if a in color.keys():
+    print(color[a])
+else:
+    print("invalied")
