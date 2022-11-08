@@ -1,0 +1,16 @@
+uname=["athul","arun","jithin"]
+password=["a123","b123","c123"]
+a=input("enter the username")
+if a in uname:
+    b=input("enter password")
+    c=uname.index(a)
+    # if b in password and c==password.index(b)
+    d=password.index(b)
+    if c==d:
+        print("welcome")
+
+    else:
+        print("invalid password")
+
+else:
+    print("user is not found")
