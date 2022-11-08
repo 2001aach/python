@@ -1,0 +1,18 @@
+b=input("enter a sentence")
+# v=["a","e","i","o","u"]
+count=0
+for x in b:
+    if(x=='a'or x=='e'or x=='i' or x=='o'or x=='u'):
+        count=count+1
+        print("no.of vowels:")
+        print(count)
+        break
+    else:
+        print("vowels are not here")
+
+#string=input("enter word")
+# vowels=["a","e","i","o","u"]
+# count = 0
+# for i in vowels:
+#     count=count+string.count(i)
+# print(count)
