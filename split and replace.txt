@@ -1,0 +1,12 @@
+#split
+
+x="this is a car"
+# i=x.split()
+print(x.split())
+
+#replace
+
+ a="this is a dog"
+x=a.replace("dog","rabit")
+print(x)
+# print(a.replace("dog","cat"))
