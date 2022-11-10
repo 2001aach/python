@@ -1,0 +1,7 @@
+user=input("enter a sentence")
+for x in user:
+    if user.startswith("p"):
+        print("welcome")
+        break
+    else:
+        print("no entry")

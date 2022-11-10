@@ -1,0 +1,29 @@
+n = int(input("enter a number"))
+if n % 2 == 0:
+    print("not weird")
+
+else:
+    print("weird")
+
+if 2 >= n >= 5:
+    for x in n:
+        if n % 2 == 0:
+            print("not weird")
+        else:
+            print("weird")
+
+
+if 6 >= n >= 20:
+    for x in n:
+        if n % 2 == 0:
+            print("not weird")
+        else:
+            print("weird")
+
+
+if n > 20:
+    for x in n:
+        if n % 2 == 0:
+            print("not weird")
+        else:
+            print("weird")
